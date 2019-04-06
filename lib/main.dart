@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+
 import './pages/home.dart';
 
 /* Debug */
 //import 'package:flutter/rendering.dart';
 
-
 void main() {
+  /* Debug */
 //  debugPaintSizeEnabled = true;
 //  debugPaintBaselinesEnabled = true;
 //  debugPaintPointersEnabled = true;
@@ -18,11 +19,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 //      debugShowMaterialGrid: true,
-      theme: ThemeData(
-          brightness: Brightness.light,
-          primarySwatch: Colors.red,
-          accentColor: Colors.deepPurple),
-      home: HomePage()
-    );
+        theme: ThemeData(
+            brightness: Brightness.light,
+            primarySwatch: Colors.red,
+            accentColor: Colors.deepPurple),
+        home: HomePage());
   }
 }
